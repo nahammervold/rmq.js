@@ -1,0 +1,33 @@
+{
+  "name": "rmq.js",
+  "version": "1.0.0",
+  "description": "Simple RabbitMQ library to accomplish topic based Pub/Sub",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nahammervold@github.com/nahammervold/rmq.js.git"
+  },
+  "keywords": [
+    "rabbitMQ"
+  ],
+  "author": "nahammervold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nahammervold/rmq.js/issues"
+  },
+  "homepage": "https://github.com/nahammervold/rmq.js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.1"
+  }
+}
