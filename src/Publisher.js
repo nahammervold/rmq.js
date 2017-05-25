@@ -63,4 +63,4 @@ class Publisher extends Socket {
   }
 }
 
-exports default Publisher;
+export default Publisher;

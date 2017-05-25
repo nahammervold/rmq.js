@@ -39,4 +39,4 @@ class Socket {
 
 }
 
-exports default Socket;
+export default Socket;

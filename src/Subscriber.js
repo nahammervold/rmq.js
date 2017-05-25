@@ -31,4 +31,4 @@ class Subscriber extends Socket  {
   }
 }
 
-exports default Subscriber;
+export default Subscriber;
