@@ -2,9 +2,11 @@
   "name": "rmq.js",
   "version": "1.0.0",
   "description": "Simple RabbitMQ library to accomplish topic based Pub/Sub",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register",
-    "build": "babel src -d dist"
+    "build": "babel src -d dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
